@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item a:hover{
+    border: 1px solid rgb(124, 118, 118);
+    border-radius: 5px;
+}
+.navbar{
+   background-color: white;
+}
+.likha1{
+    border-top: 2px solid rgb(255, 187, 0);
+    padding-top: 2rem;
+}
+.recent{
+    font-size: .8rem;
+    border-bottom: 1.6px solid rgb(214, 208, 208);
+    padding-bottom: 1rem;
+}
+.btn2{
+    border: 2px solid green;
+    padding: .3rem;
+    width: 11rem;
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+    transition: .5s all;
+}
+.btn2:hover{
+    background-color: white;
+    color: green;
+}
+.card{
+    border: 1.5px solid rgba(128, 128, 128, 0.603);
+    border-radius: 8px;
+    background-color:rgba(205, 232, 243, 0.103);
+}
+.dream{
+    background-color:rgba(158, 212, 233, 0.274);
+    border-radius: 10px;
+}
+.facebook{
+    border: none;
+    border-radius: 20px;
+    width: 20rem;
+    background-color: white;
+    height: 2.rem;
+}
+.facebook:hover{
+    background-color:  rgba(128, 128, 128, 0.603);
+}
